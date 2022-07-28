@@ -18,10 +18,7 @@
 
 
 
-.hero__title {
-    width: 696px;
-    margin: 0 auto;
-}
+
 
 .hero {
     background-color: var(--color-footer);
@@ -34,5 +31,10 @@
     background-position: center;
     padding-top: 200px;
     padding-bottom: 200px;
+
+    &__title {
+            width: 696px;
+            margin: 0 auto;
+        }
 
 }
