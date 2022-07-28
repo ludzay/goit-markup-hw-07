@@ -153,7 +153,7 @@
 
 .form-subscribe {
     padding-left: 93px;
-    .&__title {
+    &__title {
             display: block;
             color: var(--color-white);
     
@@ -180,7 +180,7 @@
     
         }
     
-        .&__btn::after {
+        &__btn::after {
             content: "";
     
             width: 24px;
