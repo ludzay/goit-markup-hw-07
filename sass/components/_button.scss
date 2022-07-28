@@ -20,12 +20,14 @@
 
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
+
+        &:hover {
+            background-color: #188CE8;
+        }
+    
+        &:focus {
+            background-color: #188CE8;
+        }
+
 }
 
-.button:hover {
-    background-color: #188CE8;
-}
-
-.button:focus {
-    background-color: #188CE8;
-}
